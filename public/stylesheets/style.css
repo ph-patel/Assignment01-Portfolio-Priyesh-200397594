@@ -1,3 +1,13 @@
+
+/*	File name: header.pug
+//	Author's name: Priyesh Hingrajia
+//	Student Number: 200397594
+//	Description: code defines the header of website
+    Reference: Bootstrap navbar page : https://getbootstrap.com/docs/4.0/components/navbar/
+
+*/	
+
+
 body {
   background-image: url("https://cdn.pixabay.com/photo/2016/03/27/20/00/coffee-1284041_960_720.jpg");
 }

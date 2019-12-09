@@ -1,14 +1,30 @@
+// File name: index.js
+// Author's name: Priyesh Hingrajia
+// Student Number: 200397594
+// Description: code contains the main routes of the pages.
+
+
 var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index');
 });
 
 /* GET about me page */
 router.get('/about', function(req, res, next) {
   res.render('aboutme');
+});
+
+/* GET project page */
+router.get('/project', function(req, res, next) {
+  res.render('project');
+});
+
+/* GET service page */
+router.get('/service', function(req, res, next) {
+  res.render('service');
 });
 
 /* GET contact me page */

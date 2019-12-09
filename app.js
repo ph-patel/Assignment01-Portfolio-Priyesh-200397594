@@ -1,3 +1,8 @@
+// File name: app.js
+// Author's name: Priyesh Hingrajia
+// Student Number: 200397594
+// Description: code contains the main setup behind the website.
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');

@@ -1,5 +1,18 @@
-extends layout
+//-
+	File name: index.pug
+	Author's name: Priyesh Hingrajia
+	Student Number: 200397594
+	Description: code defines the homepage of website
+	Reference: Bootstrap jumbotron page page : https://getbootstrap.com/docs/4.0/components/jumbotron/
 
+
+extends layout
 block content
-  h1= title
-  p Welcome to #{title}
+	.container
+		.jumbotron
+			h1.display-4 Hello, world!
+			p.lead
+			| Personal Portfolio Website by Priyesh Hingrajia (200397594) using Nodejs, express and pug as template engine. 
+			hr.my-4
+			p.lead
+				a.btn.btn-primary.btn-lg(href='#', role='button') Learn more
